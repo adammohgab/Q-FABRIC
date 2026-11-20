@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Local backups and temporary files
+*.backup
+*.bak
+self.remote_node_name

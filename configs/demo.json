@@ -1,0 +1,10 @@
+{
+  "description": "Illustrative planning topology only; values are synthetic and are not experimental device data.",
+  "nodes": ["A", "B", "C", "D"],
+  "links": [
+    {"source": "A", "target": "B", "fidelity": 0.94, "generation_probability": 0.90, "attempt_duration": 1.0, "pair_coherence_time": 20.0, "memory_slots": 8, "classical_latency": 0.1},
+    {"source": "B", "target": "D", "fidelity": 0.94, "generation_probability": 0.90, "attempt_duration": 1.0, "pair_coherence_time": 20.0, "memory_slots": 8, "classical_latency": 0.1},
+    {"source": "A", "target": "C", "fidelity": 0.97, "generation_probability": 0.75, "attempt_duration": 1.2, "pair_coherence_time": 30.0, "memory_slots": 8, "classical_latency": 0.2},
+    {"source": "C", "target": "D", "fidelity": 0.97, "generation_probability": 0.75, "attempt_duration": 1.2, "pair_coherence_time": 30.0, "memory_slots": 8, "classical_latency": 0.2}
+  ]
+}
